@@ -1,0 +1,86 @@
+:root{
+  --carcasa:#85929E;
+  --bottom:#ABEBC6;
+  --display:#EAF2F8 ;
+  --bg-bottom:#AED6F1 ;
+  --numberDisplay:rgb(0,0,0);
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calculadora{
+    
+    display: flex;
+    flex-direction: column;
+    background-color: var(--carcasa);
+    width: 400px;
+    height: 550px;
+    margin-top: 50px;
+   border-radius: 10px;
+}
+.display{
+      margin: 30px 50px 50px 50px;
+
+     width:300px ;
+     height: 200px;
+
+     background-color:var(--display) ;
+     border-radius:10px;
+     
+
+}
+.topValue{
+margin-top: 10px;
+color:var(--numberDisplay);
+ font-size: 40px;
+ text-align: right;
+}
+.bottomValue{
+    margin-top: 30px;
+color: var(--numberDisplay);
+ font-size: 70px;
+ text-align: right;
+}
+.botonera{
+    
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+  
+    
+    justify-content: inherit;
+
+}
+
+.botonera button{
+    display: inline-block;
+    margin: auto;
+    width: 90px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:var(--bottom) ;
+  
+    
+}
+.botonera2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.botonera2 button{
+    display: inline-block;
+    margin: auto;
+    width: 100px;
+    height: 40px;
+    border-radius: 50%;
+    background-color:var(--bottom) ;
+    
+}
+
+.botonera button:hover{
+    background-color:var(--bg-bottom) ;
+}
+.botonera2 button:hover{
+    background-color: var(--bg-bottom);
+}
