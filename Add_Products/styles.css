@@ -1,0 +1,79 @@
+.main{
+    display: flex;
+    flex-direction: column;
+     margin-top: 50px;
+
+}
+.nav{
+    position:relative;
+    text-align:center ;
+    border-color: blue;
+    border-style: groove;
+    border-radius: 10px;
+   font-size:20px;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+.containerMain{
+  display:flex;
+  margin-left: 200px;
+  
+  
+}
+.form{
+    margin-top: 40px;
+    width: 300px;
+    height: 300px;
+    border-style: groove;
+   
+    
+}
+.form-action{
+    display: flex;
+    flex-direction: column;
+    margin: 7px 7px 7px 7px;
+    
+}
+.form-action label{
+    font-size: 17px;
+    text-align: start;
+    font-weight: bold;
+}
+.form-action input{
+    border-radius: 20px;
+    border-color:black;
+}
+.button{
+    margin-top: 100px;
+    background-color: #CEFCCC;
+    border-style: none;
+}
+.containerProduct{
+margin-left: 100px;
+border-style: groove;
+border-color: coral;
+margin-top: 10px;
+border-radius: 6px;
+padding:5px;
+ 
+
+
+
+}
+.containerList{
+    display:flex;
+   
+    
+}
+.containerList p{
+    margin-left:10px;
+    
+}
+.containerList button{
+     background-color:#EE613B;
+     border-style: none;
+     margin-left: 10px;
+     border-radius: 50%;
+     font-weight: bold;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agregar compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="main">
+     <nav class="nav">
+        <h1>Productos</h1>
+
+     </nav>
+     <article class="containerMain">
+
+    
+    <div class="form">
+
+       <form id="product-info" class="form-action" action="
+       ">
+       <label for="name">
+         nombre del producto:
+       </label>
+       <input type="text" id="name" placeholder="zucaritas">
+       <label for="precio">
+        ingresar precio:
+       </label>
+       <input type="number"  step="0.01" id="precio"placeholder="45$">
+        <label for="anio">anio:</label>
+        <input type="number" placeholder="1998" id="anio" value="1997" max="2022" min="1990">
+
+        <input class="button" type="submit" value="Save">
+    </form>
+    
+    </div>
+    <div  id="list" class="product-list">
+    
+
+    </div>
+</article>
+  
+
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
